@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--StatusVC-->
+        <scene sceneID="faT-MN-I6v">
+            <objects>
+                <viewController storyboardIdentifier="StatusVC" id="tw7-9o-NqZ" customClass="StatusVC" customModule="ThorChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uud-WP-JWU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1bq-Ic-Zz6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DVN-UG-S7W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8B-Gv-nfz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2882" y="1982"/>
+        </scene>
+        <!--Dash Board TabVC-->
+        <scene sceneID="Zxy-eH-1Cq">
+            <objects>
+                <tabBarController storyboardIdentifier="DashBoardTabVC" automaticallyAdjustsScrollViewInsets="NO" id="NsB-5p-oy9" customClass="DashBoardTabVC" customModule="ThorChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gVQ-gs-xfS">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7yn-TE-ckd" kind="relationship" relationship="viewControllers" id="dZa-6W-MRj"/>
+                        <segue destination="joI-UB-4Xx" kind="relationship" relationship="viewControllers" id="p0T-nS-L0d"/>
+                        <segue destination="xHy-U0-bIt" kind="relationship" relationship="viewControllers" id="f3V-zi-bhw"/>
+                        <segue destination="qZe-HB-WmU" kind="relationship" relationship="viewControllers" id="SfV-uL-Qep"/>
+                        <segue destination="cMQ-SC-S7Y" kind="relationship" relationship="viewControllers" id="hSf-6C-Sd1"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VgD-6U-Vvy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531" y="-288"/>
+        </scene>
+        <!--SettingsVC-->
+        <scene sceneID="9Ei-qn-nJP">
+            <objects>
+                <viewController storyboardIdentifier="SettingsVC" id="Q5Q-0s-T6A" customClass="SettingsVC" customModule="ThorChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0ZM-5g-w58">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="L33-nc-Hn1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qSE-cQ-fe4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j17-cf-iMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3773" y="1982"/>
+        </scene>
+        <!--Chat ListVC-->
+        <scene sceneID="E0a-Uq-rUB">
+            <objects>
+                <viewController storyboardIdentifier="ChatListVC" id="BKe-ju-zCu" customClass="ChatListVC" customModule="ThorChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wwj-vx-c3D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vAx-oN-Eq6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FYG-Wb-whI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vKv-Iy-8sh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2038" y="1982"/>
+        </scene>
+        <!--CameraVC-->
+        <scene sceneID="Sa5-St-se3">
+            <objects>
+                <viewController storyboardIdentifier="CameraVC" id="MsK-UO-hT1" customClass="CameraVC" customModule="ThorChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ns4-br-O0B">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YL8-ha-cFh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tbk-KO-gmq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U74-us-1eK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531" y="1982"/>
+        </scene>
+        <!--CallsVC-->
+        <scene sceneID="sJ5-nt-YQl">
+            <objects>
+                <viewController storyboardIdentifier="CallsVC" id="BAH-md-QDC" customClass="CallsVC" customModule="ThorChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Ty-67-BK4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="TBw-zm-Idj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vxc-CY-H3Q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GtJ-hU-Dyc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1245" y="1982"/>
+        </scene>
+        <!--Status-->
+        <scene sceneID="fub-So-u8q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7yn-TE-ckd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Status" image="arrow.2.circlepath.circle" catalog="system" id="QLM-ay-S9W"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="L5T-gX-XZH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tw7-9o-NqZ" kind="relationship" relationship="rootViewController" id="ORd-Jo-ZMT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BtS-hg-BF2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2882" y="1009"/>
+        </scene>
+        <!--Calls-->
+        <scene sceneID="nfj-l2-yRE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="joI-UB-4Xx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Calls" image="phone" catalog="system" id="sYW-Xa-J5Q"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Om9-Qd-Cwz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BAH-md-QDC" kind="relationship" relationship="rootViewController" id="4Lb-HM-WGq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rQV-3d-TYy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1245" y="1009"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="GdV-1L-evq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xHy-U0-bIt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera" catalog="system" id="arY-BC-K27"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="R8A-QR-wbg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MsK-UO-hT1" kind="relationship" relationship="rootViewController" id="nBd-qL-cq2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uYr-UB-EzF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531" y="1009"/>
+        </scene>
+        <!--Chats-->
+        <scene sceneID="JEr-pe-Vok">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qZe-HB-WmU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Chats" image="message.fill" catalog="system" id="IyC-Tn-OaI"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cRT-Rz-W5i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BKe-ju-zCu" kind="relationship" relationship="rootViewController" id="0xB-ZJ-UtL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VQN-v4-g1w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2038" y="1009"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="XiK-vG-gzP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cMQ-SC-S7Y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" catalog="system" id="VW6-FJ-F2V"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="quV-Hw-qur">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Q5Q-0s-T6A" kind="relationship" relationship="rootViewController" id="vpL-MR-HsU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2gD-9o-gpC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3773" y="1009"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.2.circlepath.circle" catalog="system" width="128" height="121"/>
+        <image name="camera" catalog="system" width="128" height="94"/>
+        <image name="gear" catalog="system" width="128" height="119"/>
+        <image name="message.fill" catalog="system" width="128" height="113"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

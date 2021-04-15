@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8409F3A72627F7CC00F2F9C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F3A62627F7CC00F2F9C7 /* AppDelegate.swift */; };
+		8409F3AB2627F7CC00F2F9C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F3AA2627F7CC00F2F9C7 /* ViewController.swift */; };
+		8409F3AE2627F7CC00F2F9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409F3AC2627F7CC00F2F9C7 /* Main.storyboard */; };
+		8409F3B12627F7CC00F2F9C7 /* ThorChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8409F3AF2627F7CC00F2F9C7 /* ThorChat.xcdatamodeld */; };
+		8409F3B32627F7CD00F2F9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8409F3B22627F7CD00F2F9C7 /* Assets.xcassets */; };
+		8409F3B62627F7CD00F2F9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409F3B42627F7CD00F2F9C7 /* LaunchScreen.storyboard */; };
+		8409F3C12627F7CD00F2F9C7 /* ThorChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F3C02627F7CD00F2F9C7 /* ThorChatTests.swift */; };
+		8409F3CC2627F7CD00F2F9C7 /* ThorChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F3CB2627F7CD00F2F9C7 /* ThorChatUITests.swift */; };
+		8409F4282627FD2100F2F9C7 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F41D2627FD2100F2F9C7 /* Lato-Italic.ttf */; };
+		8409F4292627FD2100F2F9C7 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F41E2627FD2100F2F9C7 /* Lato-LightItalic.ttf */; };
+		8409F42A2627FD2100F2F9C7 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F41F2627FD2100F2F9C7 /* Lato-Thin.ttf */; };
+		8409F42B2627FD2100F2F9C7 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F4202627FD2100F2F9C7 /* Lato-Bold.ttf */; };
+		8409F42C2627FD2100F2F9C7 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F4212627FD2100F2F9C7 /* Lato-Black.ttf */; };
+		8409F42D2627FD2100F2F9C7 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F4222627FD2100F2F9C7 /* Lato-Regular.ttf */; };
+		8409F42E2627FD2100F2F9C7 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F4232627FD2100F2F9C7 /* Lato-BlackItalic.ttf */; };
+		8409F42F2627FD2100F2F9C7 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8409F4242627FD2100F2F9C7 /* OFL.txt */; };
+		8409F4302627FD2100F2F9C7 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F4252627FD2100F2F9C7 /* Lato-BoldItalic.ttf */; };
+		8409F4312627FD2100F2F9C7 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F4262627FD2100F2F9C7 /* Lato-Light.ttf */; };
+		8409F4322627FD2100F2F9C7 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8409F4272627FD2100F2F9C7 /* Lato-ThinItalic.ttf */; };
+		8409F43D2628044400F2F9C7 /* LounchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F43C2628044400F2F9C7 /* LounchScreenVC.swift */; };
+		8409F4422628046B00F2F9C7 /* PhoneNumberVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F4412628046B00F2F9C7 /* PhoneNumberVerificationVC.swift */; };
+		8409F44726280A6700F2F9C7 /* UISupportClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F44626280A6700F2F9C7 /* UISupportClass.swift */; };
+		840A65652628189F002A255E /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A65642628189F002A255E /* EditProfileVC.swift */; };
+		840A656A26281BA4002A255E /* OTPVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A656926281BA4002A255E /* OTPVerificationVC.swift */; };
+		840A657126281DC8002A255E /* DashBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A657026281DC8002A255E /* DashBoard.storyboard */; };
+		840A657626281DE1002A255E /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A657526281DE1002A255E /* ChatListVC.swift */; };
+		840A657E26281F28002A255E /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A657D26281F28002A255E /* SettingsVC.swift */; };
+		840A658326281F36002A255E /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A658226281F36002A255E /* CameraVC.swift */; };
+		840A658826281F6D002A255E /* CallsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A658726281F6D002A255E /* CallsVC.swift */; };
+		840A658D26281F79002A255E /* StatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A658C26281F79002A255E /* StatusVC.swift */; };
+		840A659226281FF0002A255E /* DashBoardTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A659126281FF0002A255E /* DashBoardTabVC.swift */; };
+		845A37FD262814120098227C /* TermaAndPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A37FC262814120098227C /* TermaAndPolicyVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8409F3BD2627F7CD00F2F9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8409F39B2627F7CC00F2F9C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8409F3A22627F7CC00F2F9C7;
+			remoteInfo = ThorChat;
+		};
+		8409F3C82627F7CD00F2F9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8409F39B2627F7CC00F2F9C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8409F3A22627F7CC00F2F9C7;
+			remoteInfo = ThorChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8409F3A32627F7CC00F2F9C7 /* ThorChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThorChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8409F3A62627F7CC00F2F9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8409F3AA2627F7CC00F2F9C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8409F3AD2627F7CC00F2F9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8409F3B02627F7CC00F2F9C7 /* ThorChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThorChat.xcdatamodel; sourceTree = "<group>"; };
+		8409F3B22627F7CD00F2F9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8409F3B52627F7CD00F2F9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8409F3B72627F7CD00F2F9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8409F3BC2627F7CD00F2F9C7 /* ThorChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThorChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8409F3C02627F7CD00F2F9C7 /* ThorChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThorChatTests.swift; sourceTree = "<group>"; };
+		8409F3C22627F7CD00F2F9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8409F3C72627F7CD00F2F9C7 /* ThorChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThorChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8409F3CB2627F7CD00F2F9C7 /* ThorChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThorChatUITests.swift; sourceTree = "<group>"; };
+		8409F3CD2627F7CD00F2F9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8409F41D2627FD2100F2F9C7 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		8409F41E2627FD2100F2F9C7 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		8409F41F2627FD2100F2F9C7 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		8409F4202627FD2100F2F9C7 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		8409F4212627FD2100F2F9C7 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		8409F4222627FD2100F2F9C7 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		8409F4232627FD2100F2F9C7 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8409F4242627FD2100F2F9C7 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		8409F4252627FD2100F2F9C7 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8409F4262627FD2100F2F9C7 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		8409F4272627FD2100F2F9C7 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		8409F43C2628044400F2F9C7 /* LounchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LounchScreenVC.swift; sourceTree = "<group>"; };
+		8409F4412628046B00F2F9C7 /* PhoneNumberVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberVerificationVC.swift; sourceTree = "<group>"; };
+		8409F44626280A6700F2F9C7 /* UISupportClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISupportClass.swift; sourceTree = "<group>"; };
+		840A65642628189F002A255E /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		840A656926281BA4002A255E /* OTPVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationVC.swift; sourceTree = "<group>"; };
+		840A657026281DC8002A255E /* DashBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashBoard.storyboard; sourceTree = "<group>"; };
+		840A657526281DE1002A255E /* ChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
+		840A657D26281F28002A255E /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		840A658226281F36002A255E /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		840A658726281F6D002A255E /* CallsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsVC.swift; sourceTree = "<group>"; };
+		840A658C26281F79002A255E /* StatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusVC.swift; sourceTree = "<group>"; };
+		840A659126281FF0002A255E /* DashBoardTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardTabVC.swift; sourceTree = "<group>"; };
+		845A37FC262814120098227C /* TermaAndPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermaAndPolicyVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8409F3A02627F7CC00F2F9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409F3B92627F7CD00F2F9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409F3C42627F7CD00F2F9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8409F39A2627F7CC00F2F9C7 = {
+			isa = PBXGroup;
+			children = (
+				8409F3A52627F7CC00F2F9C7 /* ThorChat */,
+				8409F3BF2627F7CD00F2F9C7 /* ThorChatTests */,
+				8409F3CA2627F7CD00F2F9C7 /* ThorChatUITests */,
+				8409F3A42627F7CC00F2F9C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8409F3A42627F7CC00F2F9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8409F3A32627F7CC00F2F9C7 /* ThorChat.app */,
+				8409F3BC2627F7CD00F2F9C7 /* ThorChatTests.xctest */,
+				8409F3C72627F7CD00F2F9C7 /* ThorChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8409F3A52627F7CC00F2F9C7 /* ThorChat */ = {
+			isa = PBXGroup;
+			children = (
+				8409F3A62627F7CC00F2F9C7 /* AppDelegate.swift */,
+				8409F3AA2627F7CC00F2F9C7 /* ViewController.swift */,
+				840A656E26281D9D002A255E /* Auth */,
+				840A656F26281DAE002A255E /* DashBoard */,
+				8409F44626280A6700F2F9C7 /* UISupportClass.swift */,
+				8409F3B22627F7CD00F2F9C7 /* Assets.xcassets */,
+				8409F3B42627F7CD00F2F9C7 /* LaunchScreen.storyboard */,
+				8409F3B72627F7CD00F2F9C7 /* Info.plist */,
+				8409F3AF2627F7CC00F2F9C7 /* ThorChat.xcdatamodeld */,
+				8409F41C2627FD2100F2F9C7 /* Lato */,
+			);
+			path = ThorChat;
+			sourceTree = "<group>";
+		};
+		8409F3BF2627F7CD00F2F9C7 /* ThorChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8409F3C02627F7CD00F2F9C7 /* ThorChatTests.swift */,
+				8409F3C22627F7CD00F2F9C7 /* Info.plist */,
+			);
+			path = ThorChatTests;
+			sourceTree = "<group>";
+		};
+		8409F3CA2627F7CD00F2F9C7 /* ThorChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8409F3CB2627F7CD00F2F9C7 /* ThorChatUITests.swift */,
+				8409F3CD2627F7CD00F2F9C7 /* Info.plist */,
+			);
+			path = ThorChatUITests;
+			sourceTree = "<group>";
+		};
+		8409F41C2627FD2100F2F9C7 /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				8409F41D2627FD2100F2F9C7 /* Lato-Italic.ttf */,
+				8409F41E2627FD2100F2F9C7 /* Lato-LightItalic.ttf */,
+				8409F41F2627FD2100F2F9C7 /* Lato-Thin.ttf */,
+				8409F4202627FD2100F2F9C7 /* Lato-Bold.ttf */,
+				8409F4212627FD2100F2F9C7 /* Lato-Black.ttf */,
+				8409F4222627FD2100F2F9C7 /* Lato-Regular.ttf */,
+				8409F4232627FD2100F2F9C7 /* Lato-BlackItalic.ttf */,
+				8409F4242627FD2100F2F9C7 /* OFL.txt */,
+				8409F4252627FD2100F2F9C7 /* Lato-BoldItalic.ttf */,
+				8409F4262627FD2100F2F9C7 /* Lato-Light.ttf */,
+				8409F4272627FD2100F2F9C7 /* Lato-ThinItalic.ttf */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
+		840A656E26281D9D002A255E /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8409F3AC2627F7CC00F2F9C7 /* Main.storyboard */,
+				8409F43C2628044400F2F9C7 /* LounchScreenVC.swift */,
+				8409F4412628046B00F2F9C7 /* PhoneNumberVerificationVC.swift */,
+				840A65642628189F002A255E /* EditProfileVC.swift */,
+				845A37FC262814120098227C /* TermaAndPolicyVC.swift */,
+				840A656926281BA4002A255E /* OTPVerificationVC.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		840A656F26281DAE002A255E /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				840A657026281DC8002A255E /* DashBoard.storyboard */,
+				840A659126281FF0002A255E /* DashBoardTabVC.swift */,
+				840A657526281DE1002A255E /* ChatListVC.swift */,
+				840A657D26281F28002A255E /* SettingsVC.swift */,
+				840A658226281F36002A255E /* CameraVC.swift */,
+				840A658726281F6D002A255E /* CallsVC.swift */,
+				840A658C26281F79002A255E /* StatusVC.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8409F3A22627F7CC00F2F9C7 /* ThorChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8409F3D02627F7CD00F2F9C7 /* Build configuration list for PBXNativeTarget "ThorChat" */;
+			buildPhases = (
+				8409F39F2627F7CC00F2F9C7 /* Sources */,
+				8409F3A02627F7CC00F2F9C7 /* Frameworks */,
+				8409F3A12627F7CC00F2F9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThorChat;
+			productName = ThorChat;
+			productReference = 8409F3A32627F7CC00F2F9C7 /* ThorChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8409F3BB2627F7CD00F2F9C7 /* ThorChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8409F3D32627F7CD00F2F9C7 /* Build configuration list for PBXNativeTarget "ThorChatTests" */;
+			buildPhases = (
+				8409F3B82627F7CD00F2F9C7 /* Sources */,
+				8409F3B92627F7CD00F2F9C7 /* Frameworks */,
+				8409F3BA2627F7CD00F2F9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8409F3BE2627F7CD00F2F9C7 /* PBXTargetDependency */,
+			);
+			name = ThorChatTests;
+			productName = ThorChatTests;
+			productReference = 8409F3BC2627F7CD00F2F9C7 /* ThorChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8409F3C62627F7CD00F2F9C7 /* ThorChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8409F3D62627F7CD00F2F9C7 /* Build configuration list for PBXNativeTarget "ThorChatUITests" */;
+			buildPhases = (
+				8409F3C32627F7CD00F2F9C7 /* Sources */,
+				8409F3C42627F7CD00F2F9C7 /* Frameworks */,
+				8409F3C52627F7CD00F2F9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8409F3C92627F7CD00F2F9C7 /* PBXTargetDependency */,
+			);
+			name = ThorChatUITests;
+			productName = ThorChatUITests;
+			productReference = 8409F3C72627F7CD00F2F9C7 /* ThorChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8409F39B2627F7CC00F2F9C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8409F3A22627F7CC00F2F9C7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					8409F3BB2627F7CD00F2F9C7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8409F3A22627F7CC00F2F9C7;
+					};
+					8409F3C62627F7CD00F2F9C7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8409F3A22627F7CC00F2F9C7;
+					};
+				};
+			};
+			buildConfigurationList = 8409F39E2627F7CC00F2F9C7 /* Build configuration list for PBXProject "ThorChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8409F39A2627F7CC00F2F9C7;
+			productRefGroup = 8409F3A42627F7CC00F2F9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8409F3A22627F7CC00F2F9C7 /* ThorChat */,
+				8409F3BB2627F7CD00F2F9C7 /* ThorChatTests */,
+				8409F3C62627F7CD00F2F9C7 /* ThorChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8409F3A12627F7CC00F2F9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8409F42B2627FD2100F2F9C7 /* Lato-Bold.ttf in Resources */,
+				8409F4322627FD2100F2F9C7 /* Lato-ThinItalic.ttf in Resources */,
+				8409F4312627FD2100F2F9C7 /* Lato-Light.ttf in Resources */,
+				8409F42F2627FD2100F2F9C7 /* OFL.txt in Resources */,
+				8409F3B62627F7CD00F2F9C7 /* LaunchScreen.storyboard in Resources */,
+				840A657126281DC8002A255E /* DashBoard.storyboard in Resources */,
+				8409F4302627FD2100F2F9C7 /* Lato-BoldItalic.ttf in Resources */,
+				8409F42E2627FD2100F2F9C7 /* Lato-BlackItalic.ttf in Resources */,
+				8409F42A2627FD2100F2F9C7 /* Lato-Thin.ttf in Resources */,
+				8409F4292627FD2100F2F9C7 /* Lato-LightItalic.ttf in Resources */,
+				8409F42D2627FD2100F2F9C7 /* Lato-Regular.ttf in Resources */,
+				8409F42C2627FD2100F2F9C7 /* Lato-Black.ttf in Resources */,
+				8409F3B32627F7CD00F2F9C7 /* Assets.xcassets in Resources */,
+				8409F4282627FD2100F2F9C7 /* Lato-Italic.ttf in Resources */,
+				8409F3AE2627F7CC00F2F9C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409F3BA2627F7CD00F2F9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409F3C52627F7CD00F2F9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8409F39F2627F7CC00F2F9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840A657E26281F28002A255E /* SettingsVC.swift in Sources */,
+				8409F3AB2627F7CC00F2F9C7 /* ViewController.swift in Sources */,
+				8409F43D2628044400F2F9C7 /* LounchScreenVC.swift in Sources */,
+				8409F44726280A6700F2F9C7 /* UISupportClass.swift in Sources */,
+				8409F4422628046B00F2F9C7 /* PhoneNumberVerificationVC.swift in Sources */,
+				840A658826281F6D002A255E /* CallsVC.swift in Sources */,
+				840A659226281FF0002A255E /* DashBoardTabVC.swift in Sources */,
+				840A656A26281BA4002A255E /* OTPVerificationVC.swift in Sources */,
+				845A37FD262814120098227C /* TermaAndPolicyVC.swift in Sources */,
+				840A658D26281F79002A255E /* StatusVC.swift in Sources */,
+				840A658326281F36002A255E /* CameraVC.swift in Sources */,
+				8409F3A72627F7CC00F2F9C7 /* AppDelegate.swift in Sources */,
+				840A657626281DE1002A255E /* ChatListVC.swift in Sources */,
+				840A65652628189F002A255E /* EditProfileVC.swift in Sources */,
+				8409F3B12627F7CC00F2F9C7 /* ThorChat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409F3B82627F7CD00F2F9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8409F3C12627F7CD00F2F9C7 /* ThorChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8409F3C32627F7CD00F2F9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8409F3CC2627F7CD00F2F9C7 /* ThorChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8409F3BE2627F7CD00F2F9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8409F3A22627F7CC00F2F9C7 /* ThorChat */;
+			targetProxy = 8409F3BD2627F7CD00F2F9C7 /* PBXContainerItemProxy */;
+		};
+		8409F3C92627F7CD00F2F9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8409F3A22627F7CC00F2F9C7 /* ThorChat */;
+			targetProxy = 8409F3C82627F7CD00F2F9C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8409F3AC2627F7CC00F2F9C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8409F3AD2627F7CC00F2F9C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8409F3B42627F7CD00F2F9C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8409F3B52627F7CD00F2F9C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8409F3CE2627F7CD00F2F9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8409F3CF2627F7CD00F2F9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8409F3D12627F7CD00F2F9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z76Y29529;
+				INFOPLIST_FILE = ThorChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thorsignia.ThorChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8409F3D22627F7CD00F2F9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z76Y29529;
+				INFOPLIST_FILE = ThorChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thorsignia.ThorChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8409F3D42627F7CD00F2F9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z76Y29529;
+				INFOPLIST_FILE = ThorChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thorsignia.ThorChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThorChat.app/ThorChat";
+			};
+			name = Debug;
+		};
+		8409F3D52627F7CD00F2F9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z76Y29529;
+				INFOPLIST_FILE = ThorChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thorsignia.ThorChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThorChat.app/ThorChat";
+			};
+			name = Release;
+		};
+		8409F3D72627F7CD00F2F9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z76Y29529;
+				INFOPLIST_FILE = ThorChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thorsignia.ThorChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThorChat;
+			};
+			name = Debug;
+		};
+		8409F3D82627F7CD00F2F9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z76Y29529;
+				INFOPLIST_FILE = ThorChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thorsignia.ThorChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThorChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8409F39E2627F7CC00F2F9C7 /* Build configuration list for PBXProject "ThorChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8409F3CE2627F7CD00F2F9C7 /* Debug */,
+				8409F3CF2627F7CD00F2F9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8409F3D02627F7CD00F2F9C7 /* Build configuration list for PBXNativeTarget "ThorChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8409F3D12627F7CD00F2F9C7 /* Debug */,
+				8409F3D22627F7CD00F2F9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8409F3D32627F7CD00F2F9C7 /* Build configuration list for PBXNativeTarget "ThorChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8409F3D42627F7CD00F2F9C7 /* Debug */,
+				8409F3D52627F7CD00F2F9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8409F3D62627F7CD00F2F9C7 /* Build configuration list for PBXNativeTarget "ThorChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8409F3D72627F7CD00F2F9C7 /* Debug */,
+				8409F3D82627F7CD00F2F9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8409F3AF2627F7CC00F2F9C7 /* ThorChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8409F3B02627F7CC00F2F9C7 /* ThorChat.xcdatamodel */,
+			);
+			currentVersion = 8409F3B02627F7CC00F2F9C7 /* ThorChat.xcdatamodel */;
+			path = ThorChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8409F39B2627F7CC00F2F9C7 /* Project object */;
+}
