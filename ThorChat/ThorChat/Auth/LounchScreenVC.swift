@@ -32,8 +32,6 @@ class LounchScreenVC: UIViewController {
     
     @IBAction func termaBtnref(_ sender: Any) {
         
-       
-        
         let Storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let nxtVC = Storyboard.instantiateViewController(withIdentifier: "TermaAndPolicyVC") as! TermaAndPolicyVC
         nxtVC.titleStr = "Terms of Services"

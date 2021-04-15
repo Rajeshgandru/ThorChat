@@ -8,6 +8,9 @@
 import UIKit
 import CoreData
 
+
+var myPushKitToken = ""
+var newDeviceId = ""
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,11 +18,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        NavigationScreens()
         return true
     }
 
 
-
+    func NavigationScreens(){
+        if UserDefaults.standard.bool(forKey: "Str_Global_IsUserLogIned") {
+             let appDelegate: AppDelegate? = UIApplication.shared.delegate as? AppDelegate
+            appDelegate?.window = UIWindow(frame: UIScreen.main.bounds)
+            let storyboard = UIStoryboard(name: "DashBoard", bundle: nil)
+            let main = storyboard.instantiateViewController(withIdentifier: "DashBoardTabVC") as! DashBoardTabVC
+            main.selectedIndex = 3
+            appDelegate?.window?.rootViewController = main
+            appDelegate?.window?.makeKeyAndVisible()
+            
+        }else {
+            
+            let mainStoryboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let initialViewControlleripad : LounchScreenVC = mainStoryboard.instantiateViewController(withIdentifier: "LounchScreenVC") as! LounchScreenVC
+            if let navigationController = self.window?.rootViewController as? UINavigationController
+            {
+                navigationController.pushViewController(initialViewControlleripad, animated: false)
+                // window?.rootViewController = initialViewControlleripad
+            }
+            else
+            {
+                print("Navigation Controller not Found")
+            }
+        }
+        window?.makeKeyAndVisible()
+    }
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {

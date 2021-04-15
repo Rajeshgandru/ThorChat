@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02927F8003466F23377D4504 /* Pods_ThorChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0806AAAD2F9A77FFD66CA9B2 /* Pods_ThorChatTests.framework */; };
 		8409F3A72627F7CC00F2F9C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F3A62627F7CC00F2F9C7 /* AppDelegate.swift */; };
 		8409F3AB2627F7CC00F2F9C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F3AA2627F7CC00F2F9C7 /* ViewController.swift */; };
 		8409F3AE2627F7CC00F2F9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409F3AC2627F7CC00F2F9C7 /* Main.storyboard */; };
@@ -29,7 +30,7 @@
 		8409F43D2628044400F2F9C7 /* LounchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F43C2628044400F2F9C7 /* LounchScreenVC.swift */; };
 		8409F4422628046B00F2F9C7 /* PhoneNumberVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F4412628046B00F2F9C7 /* PhoneNumberVerificationVC.swift */; };
 		8409F44726280A6700F2F9C7 /* UISupportClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F44626280A6700F2F9C7 /* UISupportClass.swift */; };
-		840A65652628189F002A255E /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A65642628189F002A255E /* EditProfileVC.swift */; };
+		840A65652628189F002A255E /* EditMyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A65642628189F002A255E /* EditMyProfileVC.swift */; };
 		840A656A26281BA4002A255E /* OTPVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A656926281BA4002A255E /* OTPVerificationVC.swift */; };
 		840A657126281DC8002A255E /* DashBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A657026281DC8002A255E /* DashBoard.storyboard */; };
 		840A657626281DE1002A255E /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A657526281DE1002A255E /* ChatListVC.swift */; };
@@ -38,7 +39,26 @@
 		840A658826281F6D002A255E /* CallsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A658726281F6D002A255E /* CallsVC.swift */; };
 		840A658D26281F79002A255E /* StatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A658C26281F79002A255E /* StatusVC.swift */; };
 		840A659226281FF0002A255E /* DashBoardTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A659126281FF0002A255E /* DashBoardTabVC.swift */; };
+		840A65BC26283058002A255E /* Spinner5p.gif in Resources */ = {isa = PBXBuildFile; fileRef = 840A65B526283058002A255E /* Spinner5p.gif */; };
+		840A65BD26283058002A255E /* Spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = 840A65B626283058002A255E /* Spinner.gif */; };
+		840A65BE26283058002A255E /* PUGIFLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A65B726283058002A255E /* PUGIFLoading.swift */; };
+		840A65BF26283058002A255E /* Spinnerg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 840A65B826283058002A255E /* Spinnerg.gif */; };
+		840A65C026283058002A255E /* Spinnerf.gif in Resources */ = {isa = PBXBuildFile; fileRef = 840A65B926283058002A255E /* Spinnerf.gif */; };
+		840A65C126283058002A255E /* Spinners.gif in Resources */ = {isa = PBXBuildFile; fileRef = 840A65BA26283058002A255E /* Spinners.gif */; };
+		840A65C226283058002A255E /* Spinnert.gif in Resources */ = {isa = PBXBuildFile; fileRef = 840A65BB26283058002A255E /* Spinnert.gif */; };
+		840A65CD262830B9002A255E /* VPMOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A65CB262830B9002A255E /* VPMOTPView.swift */; };
+		840A65CE262830B9002A255E /* VPMOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A65CC262830B9002A255E /* VPMOTPTextField.swift */; };
+		840A65D42628334A002A255E /* TimeConvertMidel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A65D32628334A002A255E /* TimeConvertMidel.swift */; };
+		840A660326283E72002A255E /* Wrapping_APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A65FF26283E72002A255E /* Wrapping_APIs.swift */; };
+		840A660426283E73002A255E /* commntedKeyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A660026283E72002A255E /* commntedKeyFile.swift */; };
+		840A660526283E73002A255E /* API_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A660126283E72002A255E /* API_List.swift */; };
+		840A660626283E73002A255E /* VersionChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A660226283E72002A255E /* VersionChecking.swift */; };
+		840A662D262840DF002A255E /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A662C262840DF002A255E /* LoginModel.swift */; };
+		840A664126284A45002A255E /* imagepicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A664026284A45002A255E /* imagepicker.swift */; };
+		840A664626284A67002A255E /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A664526284A67002A255E /* AddressModel.swift */; };
 		845A37FD262814120098227C /* TermaAndPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A37FC262814120098227C /* TermaAndPolicyVC.swift */; };
+		86394DFED6DF2B4278A40177 /* Pods_ThorChat_ThorChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A697012DCAC445C82F23C0E /* Pods_ThorChat_ThorChatUITests.framework */; };
+		899BD61EFF4E20E426CAD403 /* Pods_ThorChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C98DF3A9BEE6B7E9AA4EAD /* Pods_ThorChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +79,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0806AAAD2F9A77FFD66CA9B2 /* Pods_ThorChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThorChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDFF4C5C226DA1002AC4745 /* Pods-ThorChat-ThorChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThorChat-ThorChatUITests.release.xcconfig"; path = "Target Support Files/Pods-ThorChat-ThorChatUITests/Pods-ThorChat-ThorChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		455B3D775FD0EDB0578697AC /* Pods-ThorChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThorChatTests.release.xcconfig"; path = "Target Support Files/Pods-ThorChatTests/Pods-ThorChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		68BC1E5E208926EB606D4C34 /* Pods-ThorChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThorChat.debug.xcconfig"; path = "Target Support Files/Pods-ThorChat/Pods-ThorChat.debug.xcconfig"; sourceTree = "<group>"; };
+		81F1B1ABCD29FD80405AEBE0 /* Pods-ThorChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThorChatTests.debug.xcconfig"; path = "Target Support Files/Pods-ThorChatTests/Pods-ThorChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8409F3A32627F7CC00F2F9C7 /* ThorChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThorChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8409F3A62627F7CC00F2F9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8409F3AA2627F7CC00F2F9C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +112,7 @@
 		8409F43C2628044400F2F9C7 /* LounchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LounchScreenVC.swift; sourceTree = "<group>"; };
 		8409F4412628046B00F2F9C7 /* PhoneNumberVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberVerificationVC.swift; sourceTree = "<group>"; };
 		8409F44626280A6700F2F9C7 /* UISupportClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISupportClass.swift; sourceTree = "<group>"; };
-		840A65642628189F002A255E /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		840A65642628189F002A255E /* EditMyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMyProfileVC.swift; sourceTree = "<group>"; };
 		840A656926281BA4002A255E /* OTPVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationVC.swift; sourceTree = "<group>"; };
 		840A657026281DC8002A255E /* DashBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashBoard.storyboard; sourceTree = "<group>"; };
 		840A657526281DE1002A255E /* ChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
@@ -96,7 +121,28 @@
 		840A658726281F6D002A255E /* CallsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsVC.swift; sourceTree = "<group>"; };
 		840A658C26281F79002A255E /* StatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusVC.swift; sourceTree = "<group>"; };
 		840A659126281FF0002A255E /* DashBoardTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardTabVC.swift; sourceTree = "<group>"; };
+		840A65B526283058002A255E /* Spinner5p.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Spinner5p.gif; sourceTree = "<group>"; };
+		840A65B626283058002A255E /* Spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Spinner.gif; sourceTree = "<group>"; };
+		840A65B726283058002A255E /* PUGIFLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PUGIFLoading.swift; sourceTree = "<group>"; };
+		840A65B826283058002A255E /* Spinnerg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Spinnerg.gif; sourceTree = "<group>"; };
+		840A65B926283058002A255E /* Spinnerf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Spinnerf.gif; sourceTree = "<group>"; };
+		840A65BA26283058002A255E /* Spinners.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Spinners.gif; sourceTree = "<group>"; };
+		840A65BB26283058002A255E /* Spinnert.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Spinnert.gif; sourceTree = "<group>"; };
+		840A65CB262830B9002A255E /* VPMOTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPMOTPView.swift; sourceTree = "<group>"; };
+		840A65CC262830B9002A255E /* VPMOTPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPMOTPTextField.swift; sourceTree = "<group>"; };
+		840A65D32628334A002A255E /* TimeConvertMidel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConvertMidel.swift; sourceTree = "<group>"; };
+		840A65FF26283E72002A255E /* Wrapping_APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrapping_APIs.swift; sourceTree = "<group>"; };
+		840A660026283E72002A255E /* commntedKeyFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commntedKeyFile.swift; sourceTree = "<group>"; };
+		840A660126283E72002A255E /* API_List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_List.swift; sourceTree = "<group>"; };
+		840A660226283E72002A255E /* VersionChecking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionChecking.swift; sourceTree = "<group>"; };
+		840A662C262840DF002A255E /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		840A664026284A45002A255E /* imagepicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imagepicker.swift; sourceTree = "<group>"; };
+		840A664526284A67002A255E /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
 		845A37FC262814120098227C /* TermaAndPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermaAndPolicyVC.swift; sourceTree = "<group>"; };
+		9A697012DCAC445C82F23C0E /* Pods_ThorChat_ThorChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThorChat_ThorChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D18457E9E3C8B1B7087690 /* Pods-ThorChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThorChat.release.xcconfig"; path = "Target Support Files/Pods-ThorChat/Pods-ThorChat.release.xcconfig"; sourceTree = "<group>"; };
+		E8C98DF3A9BEE6B7E9AA4EAD /* Pods_ThorChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThorChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB43AC237906EEB3E8A2F40 /* Pods-ThorChat-ThorChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThorChat-ThorChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-ThorChat-ThorChatUITests/Pods-ThorChat-ThorChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899BD61EFF4E20E426CAD403 /* Pods_ThorChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02927F8003466F23377D4504 /* Pods_ThorChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86394DFED6DF2B4278A40177 /* Pods_ThorChat_ThorChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +180,8 @@
 				8409F3BF2627F7CD00F2F9C7 /* ThorChatTests */,
 				8409F3CA2627F7CD00F2F9C7 /* ThorChatUITests */,
 				8409F3A42627F7CC00F2F9C7 /* Products */,
+				FD7628DED0CCD6F55585869F /* Pods */,
+				9DD244303CBEC9A83B350919 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +200,8 @@
 			children = (
 				8409F3A62627F7CC00F2F9C7 /* AppDelegate.swift */,
 				8409F3AA2627F7CC00F2F9C7 /* ViewController.swift */,
+				840A65FE26283E72002A255E /* Sources */,
+				840A662B262840CB002A255E /* Models */,
 				840A656E26281D9D002A255E /* Auth */,
 				840A656F26281DAE002A255E /* DashBoard */,
 				8409F44626280A6700F2F9C7 /* UISupportClass.swift */,
@@ -156,6 +209,7 @@
 				8409F3B42627F7CD00F2F9C7 /* LaunchScreen.storyboard */,
 				8409F3B72627F7CD00F2F9C7 /* Info.plist */,
 				8409F3AF2627F7CC00F2F9C7 /* ThorChat.xcdatamodeld */,
+				840A65C62628308C002A255E /* SupportFrameWorks */,
 				8409F41C2627FD2100F2F9C7 /* Lato */,
 			);
 			path = ThorChat;
@@ -182,6 +236,7 @@
 		8409F41C2627FD2100F2F9C7 /* Lato */ = {
 			isa = PBXGroup;
 			children = (
+				840A65B426283058002A255E /* PrograssBar */,
 				8409F41D2627FD2100F2F9C7 /* Lato-Italic.ttf */,
 				8409F41E2627FD2100F2F9C7 /* Lato-LightItalic.ttf */,
 				8409F41F2627FD2100F2F9C7 /* Lato-Thin.ttf */,
@@ -202,10 +257,10 @@
 			children = (
 				8409F3AC2627F7CC00F2F9C7 /* Main.storyboard */,
 				8409F43C2628044400F2F9C7 /* LounchScreenVC.swift */,
-				8409F4412628046B00F2F9C7 /* PhoneNumberVerificationVC.swift */,
-				840A65642628189F002A255E /* EditProfileVC.swift */,
 				845A37FC262814120098227C /* TermaAndPolicyVC.swift */,
+				8409F4412628046B00F2F9C7 /* PhoneNumberVerificationVC.swift */,
 				840A656926281BA4002A255E /* OTPVerificationVC.swift */,
+				840A65642628189F002A255E /* EditMyProfileVC.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -224,6 +279,98 @@
 			path = DashBoard;
 			sourceTree = "<group>";
 		};
+		840A65B426283058002A255E /* PrograssBar */ = {
+			isa = PBXGroup;
+			children = (
+				840A65B526283058002A255E /* Spinner5p.gif */,
+				840A65B626283058002A255E /* Spinner.gif */,
+				840A65B726283058002A255E /* PUGIFLoading.swift */,
+				840A65B826283058002A255E /* Spinnerg.gif */,
+				840A65B926283058002A255E /* Spinnerf.gif */,
+				840A65BA26283058002A255E /* Spinners.gif */,
+				840A65BB26283058002A255E /* Spinnert.gif */,
+			);
+			path = PrograssBar;
+			sourceTree = "<group>";
+		};
+		840A65C62628308C002A255E /* SupportFrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				840A663726284A27002A255E /* ImagePick */,
+				840A65D226283336002A255E /* TimerModule */,
+				840A65CA262830B9002A255E /* VPMOTPView */,
+			);
+			path = SupportFrameWorks;
+			sourceTree = "<group>";
+		};
+		840A65CA262830B9002A255E /* VPMOTPView */ = {
+			isa = PBXGroup;
+			children = (
+				840A65CB262830B9002A255E /* VPMOTPView.swift */,
+				840A65CC262830B9002A255E /* VPMOTPTextField.swift */,
+			);
+			path = VPMOTPView;
+			sourceTree = "<group>";
+		};
+		840A65D226283336002A255E /* TimerModule */ = {
+			isa = PBXGroup;
+			children = (
+				840A65D32628334A002A255E /* TimeConvertMidel.swift */,
+			);
+			path = TimerModule;
+			sourceTree = "<group>";
+		};
+		840A65FE26283E72002A255E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				840A65FF26283E72002A255E /* Wrapping_APIs.swift */,
+				840A660026283E72002A255E /* commntedKeyFile.swift */,
+				840A660126283E72002A255E /* API_List.swift */,
+				840A660226283E72002A255E /* VersionChecking.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		840A662B262840CB002A255E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				840A662C262840DF002A255E /* LoginModel.swift */,
+				840A664526284A67002A255E /* AddressModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		840A663726284A27002A255E /* ImagePick */ = {
+			isa = PBXGroup;
+			children = (
+				840A664026284A45002A255E /* imagepicker.swift */,
+			);
+			path = ImagePick;
+			sourceTree = "<group>";
+		};
+		9DD244303CBEC9A83B350919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C98DF3A9BEE6B7E9AA4EAD /* Pods_ThorChat.framework */,
+				9A697012DCAC445C82F23C0E /* Pods_ThorChat_ThorChatUITests.framework */,
+				0806AAAD2F9A77FFD66CA9B2 /* Pods_ThorChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD7628DED0CCD6F55585869F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68BC1E5E208926EB606D4C34 /* Pods-ThorChat.debug.xcconfig */,
+				E5D18457E9E3C8B1B7087690 /* Pods-ThorChat.release.xcconfig */,
+				FFB43AC237906EEB3E8A2F40 /* Pods-ThorChat-ThorChatUITests.debug.xcconfig */,
+				2CDFF4C5C226DA1002AC4745 /* Pods-ThorChat-ThorChatUITests.release.xcconfig */,
+				81F1B1ABCD29FD80405AEBE0 /* Pods-ThorChatTests.debug.xcconfig */,
+				455B3D775FD0EDB0578697AC /* Pods-ThorChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,9 +378,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8409F3D02627F7CD00F2F9C7 /* Build configuration list for PBXNativeTarget "ThorChat" */;
 			buildPhases = (
+				18256114A5F2249E2EA1D5E8 /* [CP] Check Pods Manifest.lock */,
 				8409F39F2627F7CC00F2F9C7 /* Sources */,
 				8409F3A02627F7CC00F2F9C7 /* Frameworks */,
 				8409F3A12627F7CC00F2F9C7 /* Resources */,
+				C512D1FF3388B3027DE3EB87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +397,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8409F3D32627F7CD00F2F9C7 /* Build configuration list for PBXNativeTarget "ThorChatTests" */;
 			buildPhases = (
+				CE7AA9B5F47E463FB9B31C2B /* [CP] Check Pods Manifest.lock */,
 				8409F3B82627F7CD00F2F9C7 /* Sources */,
 				8409F3B92627F7CD00F2F9C7 /* Frameworks */,
 				8409F3BA2627F7CD00F2F9C7 /* Resources */,
@@ -266,9 +416,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8409F3D62627F7CD00F2F9C7 /* Build configuration list for PBXNativeTarget "ThorChatUITests" */;
 			buildPhases = (
+				E720F624E201E16304F09E9F /* [CP] Check Pods Manifest.lock */,
 				8409F3C32627F7CD00F2F9C7 /* Sources */,
 				8409F3C42627F7CD00F2F9C7 /* Frameworks */,
 				8409F3C52627F7CD00F2F9C7 /* Resources */,
+				09ED56A861091BEAB8EB3DC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -327,18 +479,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840A65C026283058002A255E /* Spinnerf.gif in Resources */,
+				840A65C226283058002A255E /* Spinnert.gif in Resources */,
 				8409F42B2627FD2100F2F9C7 /* Lato-Bold.ttf in Resources */,
+				840A65C126283058002A255E /* Spinners.gif in Resources */,
 				8409F4322627FD2100F2F9C7 /* Lato-ThinItalic.ttf in Resources */,
 				8409F4312627FD2100F2F9C7 /* Lato-Light.ttf in Resources */,
 				8409F42F2627FD2100F2F9C7 /* OFL.txt in Resources */,
 				8409F3B62627F7CD00F2F9C7 /* LaunchScreen.storyboard in Resources */,
+				840A65BC26283058002A255E /* Spinner5p.gif in Resources */,
 				840A657126281DC8002A255E /* DashBoard.storyboard in Resources */,
 				8409F4302627FD2100F2F9C7 /* Lato-BoldItalic.ttf in Resources */,
 				8409F42E2627FD2100F2F9C7 /* Lato-BlackItalic.ttf in Resources */,
 				8409F42A2627FD2100F2F9C7 /* Lato-Thin.ttf in Resources */,
+				840A65BF26283058002A255E /* Spinnerg.gif in Resources */,
 				8409F4292627FD2100F2F9C7 /* Lato-LightItalic.ttf in Resources */,
 				8409F42D2627FD2100F2F9C7 /* Lato-Regular.ttf in Resources */,
 				8409F42C2627FD2100F2F9C7 /* Lato-Black.ttf in Resources */,
+				840A65BD26283058002A255E /* Spinner.gif in Resources */,
 				8409F3B32627F7CD00F2F9C7 /* Assets.xcassets in Resources */,
 				8409F4282627FD2100F2F9C7 /* Lato-Italic.ttf in Resources */,
 				8409F3AE2627F7CC00F2F9C7 /* Main.storyboard in Resources */,
@@ -361,25 +519,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09ED56A861091BEAB8EB3DC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThorChat-ThorChatUITests/Pods-ThorChat-ThorChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThorChat-ThorChatUITests/Pods-ThorChat-ThorChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThorChat-ThorChatUITests/Pods-ThorChat-ThorChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18256114A5F2249E2EA1D5E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThorChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C512D1FF3388B3027DE3EB87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThorChat/Pods-ThorChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThorChat/Pods-ThorChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThorChat/Pods-ThorChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7AA9B5F47E463FB9B31C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThorChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E720F624E201E16304F09E9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThorChat-ThorChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8409F39F2627F7CC00F2F9C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840A664126284A45002A255E /* imagepicker.swift in Sources */,
 				840A657E26281F28002A255E /* SettingsVC.swift in Sources */,
 				8409F3AB2627F7CC00F2F9C7 /* ViewController.swift in Sources */,
+				840A660326283E72002A255E /* Wrapping_APIs.swift in Sources */,
 				8409F43D2628044400F2F9C7 /* LounchScreenVC.swift in Sources */,
 				8409F44726280A6700F2F9C7 /* UISupportClass.swift in Sources */,
 				8409F4422628046B00F2F9C7 /* PhoneNumberVerificationVC.swift in Sources */,
 				840A658826281F6D002A255E /* CallsVC.swift in Sources */,
+				840A65BE26283058002A255E /* PUGIFLoading.swift in Sources */,
 				840A659226281FF0002A255E /* DashBoardTabVC.swift in Sources */,
 				840A656A26281BA4002A255E /* OTPVerificationVC.swift in Sources */,
 				845A37FD262814120098227C /* TermaAndPolicyVC.swift in Sources */,
 				840A658D26281F79002A255E /* StatusVC.swift in Sources */,
+				840A660526283E73002A255E /* API_List.swift in Sources */,
+				840A662D262840DF002A255E /* LoginModel.swift in Sources */,
+				840A65CE262830B9002A255E /* VPMOTPTextField.swift in Sources */,
 				840A658326281F36002A255E /* CameraVC.swift in Sources */,
 				8409F3A72627F7CC00F2F9C7 /* AppDelegate.swift in Sources */,
+				840A664626284A67002A255E /* AddressModel.swift in Sources */,
+				840A65D42628334A002A255E /* TimeConvertMidel.swift in Sources */,
 				840A657626281DE1002A255E /* ChatListVC.swift in Sources */,
-				840A65652628189F002A255E /* EditProfileVC.swift in Sources */,
+				840A65652628189F002A255E /* EditMyProfileVC.swift in Sources */,
+				840A660626283E73002A255E /* VersionChecking.swift in Sources */,
+				840A660426283E73002A255E /* commntedKeyFile.swift in Sources */,
+				840A65CD262830B9002A255E /* VPMOTPView.swift in Sources */,
 				8409F3B12627F7CC00F2F9C7 /* ThorChat.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,6 +825,7 @@
 		};
 		8409F3D12627F7CD00F2F9C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BC1E5E208926EB606D4C34 /* Pods-ThorChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -573,6 +846,7 @@
 		};
 		8409F3D22627F7CD00F2F9C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D18457E9E3C8B1B7087690 /* Pods-ThorChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -593,6 +867,7 @@
 		};
 		8409F3D42627F7CD00F2F9C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F1B1ABCD29FD80405AEBE0 /* Pods-ThorChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -615,6 +890,7 @@
 		};
 		8409F3D52627F7CD00F2F9C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455B3D775FD0EDB0578697AC /* Pods-ThorChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -637,6 +913,7 @@
 		};
 		8409F3D72627F7CD00F2F9C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB43AC237906EEB3E8A2F40 /* Pods-ThorChat-ThorChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -657,6 +934,7 @@
 		};
 		8409F3D82627F7CD00F2F9C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CDFF4C5C226DA1002AC4745 /* Pods-ThorChat-ThorChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

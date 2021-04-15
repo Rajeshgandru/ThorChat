@@ -6,6 +6,31 @@ target 'ThorChat' do
   use_frameworks!
 
   # Pods for ThorChat
+  
+  #  for Api Intigration
+  pod 'Alamofire'
+  pod 'ObjectMapper'
+  pod 'Toast-Swift'
+  pod 'SwiftyJSON'
+  
+  # Key board Handle
+  pod 'IQKeyboardManager'
+  
+  # Image Loader
+  pod 'SDWebImage'
+  
+  #Country Picker
+  pod 'CountryPickerView'
+  
+  
+  # Firebase Init
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Firestore'
+  # Optionally, include the Swift extensions if you're using Swift.
+  pod 'FirebaseFirestoreSwift'
+  
+  
 
   target 'ThorChatTests' do
     inherit! :search_paths

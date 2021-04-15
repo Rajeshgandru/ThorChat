@@ -1,0 +1,6 @@
+framework module Pods_ThorChatTests {
+  umbrella header "Pods-ThorChatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

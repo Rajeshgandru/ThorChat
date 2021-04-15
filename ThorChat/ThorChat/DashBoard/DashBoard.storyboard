@@ -31,6 +31,7 @@
                 <tabBarController storyboardIdentifier="DashBoardTabVC" automaticallyAdjustsScrollViewInsets="NO" id="NsB-5p-oy9" customClass="DashBoardTabVC" customModule="ThorChat" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gVQ-gs-xfS">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -46,21 +47,52 @@
             </objects>
             <point key="canvasLocation" x="531" y="-288"/>
         </scene>
-        <!--SettingsVC-->
+        <!--Settings-->
         <scene sceneID="9Ei-qn-nJP">
             <objects>
                 <viewController storyboardIdentifier="SettingsVC" id="Q5Q-0s-T6A" customClass="SettingsVC" customModule="ThorChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ZM-5g-w58">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xiq-eg-bMa">
+                                <rect key="frame" x="0.0" y="44" width="320" height="475"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="77" id="Cid-gK-NeX">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="77"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cid-gK-NeX" id="fk9-jj-sC7">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2So-bS-MZj">
+                                                    <rect key="frame" x="149" y="28" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="L33-nc-Hn1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="L33-nc-Hn1" firstAttribute="trailing" secondItem="Xiq-eg-bMa" secondAttribute="trailing" id="dUu-dK-y1B"/>
+                            <constraint firstItem="L33-nc-Hn1" firstAttribute="bottom" secondItem="Xiq-eg-bMa" secondAttribute="bottom" id="frs-q4-luW"/>
+                            <constraint firstItem="Xiq-eg-bMa" firstAttribute="leading" secondItem="L33-nc-Hn1" secondAttribute="leading" id="jMG-tn-er5"/>
+                            <constraint firstItem="Xiq-eg-bMa" firstAttribute="top" secondItem="L33-nc-Hn1" secondAttribute="top" id="lqW-W0-IeP"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="qSE-cQ-fe4"/>
+                    <navigationItem key="navigationItem" title="Settings" id="qSE-cQ-fe4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j17-cf-iMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3773" y="1982"/>
+            <point key="canvasLocation" x="3772.5" y="1981.6901408450703"/>
         </scene>
         <!--Chat ListVC-->
         <scene sceneID="E0a-Uq-rUB">
@@ -192,8 +224,8 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cMQ-SC-S7Y" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" image="gear" catalog="system" id="VW6-FJ-F2V"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="quV-Hw-qur">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="quV-Hw-qur">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
